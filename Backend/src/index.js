@@ -6,14 +6,16 @@ dotenv.config({
 
 import mongoose from "mongoose";
 import app from "./app.js";
+
 const PORT = process.env.PORT || 4000;
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
+    await mongoose.connect(process.env.MONGODB_CONNECTION_STRING);
+
     console.log("MongoDB connected successfully");
 
-    app.listen(PORT, () => {
+    app.listen(PORT, "0.0.0.0", () => {
       console.log(`Server is running on port ${PORT}`);
     });
   } catch (error) {
