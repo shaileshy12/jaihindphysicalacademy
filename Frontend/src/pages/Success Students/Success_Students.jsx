@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 import SandeshImg from "../../assets/Sandesh1.png";
 
-import KalpeshImg from "../../assets/kapesh.png";
+import KalpeshImg from "../../assets/Kapesh.png";
 
 import KaranImg from "../../assets/Karan.jpg";
 
