@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 import { useTranslation } from "react-i18next";
 
-import Logo from "../assets/Logo.jpg";
+import Logo from "../assets/logo.jpg";
 
 // ================= QUICK LINKS =================
 

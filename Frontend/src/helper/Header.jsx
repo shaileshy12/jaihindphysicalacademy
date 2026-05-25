@@ -16,7 +16,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { SUPPORTED_LANGS, DEFAULT_LANG } from "../i18next/i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
-import Logo from "../assets/Logo.jpg";
+import Logo from "../assets/logo.jpg";
 
 function useLangPrefix() {
   const { pathname } = useLocation();
