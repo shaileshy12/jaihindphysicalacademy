@@ -45,13 +45,3 @@ app.use("/api/v1/user", userRoutes);
 app.use(errorMiddleware);
 
 export default app;
-
-// import express from "express";
-
-// const app = express();
-
-// app.get("/", (req, res) => {
-//   res.send("WORKING");
-// });
-
-// export default app;
