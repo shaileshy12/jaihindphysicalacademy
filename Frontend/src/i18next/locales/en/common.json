@@ -1,0 +1,24 @@
+{
+  "site": {
+    "name": "Jai Hind Physical Academy",
+    "tagline": "Police · Army · Defence Training"
+  },
+  "header": {
+    "slogan": "Hard work + Determination + Guidance + Faith = Progress",
+    "email": "jaihindphysicalacademy123@gmail.com",
+    "phoneLine": "+91 9082546363 | 8828261024"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "directorDesk": "Director Desk",
+    "mission": "Mission",
+    "vision": "Vision",
+    "courses": "Courses",
+    "success": "Success Student",
+    "gallery": "Gallery",
+    "enquiry": "Enquiry",
+    "contact": "Contact Us",
+    "trainingDisciplineSelection": "Training · Discipline · Selection"
+  }
+}

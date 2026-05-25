@@ -1,0 +1,18 @@
+ {
+    
+    "headOffice": "Office (Borivali West)",
+    "addressLine1": "General Arun Kumar Vaidya Ground, Ashwinayak Nagar, Borivali (West), Mumbai, Maharashtra - 400091",
+    "addressLine2": "(MHB Ground, oppo. Sailee College, near Fire Brigade Link Road, Gorai road)",
+    "coursesTitle": "Courses & Training",
+    "courses": {
+      "police": "Police Bharti Ground Training", "army": "Army Bharti Ground Training", "taarmy": "Territorial Army Ground Training",
+      "sscgd": "SSC GD Ground Training", "rpf": "RPF Ground Training", "fitness": "Fitness Physical Training", "allPhysical": "All Physical Training"
+    },
+    "quickLinksTitle": "Quick Links",
+    "links": {
+      "aboutUs": "About Us", "directorDesk": "Director Desk", "photo": "Photo", "video": "Video", "successStudent": "Success Student", "enquiry": "Enquiry"
+    },
+    "bottomLine": "© 2026 Jai Hind Physical Academy. All rights reserved.",
+    "bottomSubtitle": "Developed with discipline & precision for future warriors."
+  
+}

@@ -1,0 +1,73 @@
+{
+    
+    "heroImgAlt": "Enquiry hero image",
+    "heroTag": "Enquiry",
+    "heroTitleMain": "Start Your",
+    "heroTitleHighlight": "Training Journey",
+    "heroText": "Tell us your goal, location and preparation level, and we will guide you to the right batch.",
+    "form": {
+      "title": "Enquiry Form",
+      "subtitle": "Fill in your details and our team will get back to you.",
+      "fullNameLabel": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "ageLabel":"Age",
+      "agePlaceholder":"Automatically calculated from DOB",
+      "dobLabel":"Date Of Birth",
+      "heightLabel":"Height",
+      "heightPlaceholder":"eg:  5'7   or  172 cm",
+      "casteLabel":"Caste",
+      "castePlaceholder":"Enter your caste",
+      "mobileLabel": "Mobile Number",
+      "mobilePlaceholder": "Enter your mobile number",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "locationLabel": "Location / Area",
+      "locationPlaceholder": "Enter your area or nearest station",
+      "courseLabel": "Select Course",
+      "coursePlaceholder": "Choose your course",
+      "coursePolice": "Police Recruitment",
+      "courseArmy": "Army Recruitment",
+      "courseSSC": "SSC GD / CAPF",
+      "coursePhysical": "Physical Training",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here",
+      "submitButton": "Submit Enquiry",
+      "submitting": "Submitting...",
+      "disclaimer": "Your details will only be used for training guidance and follow-up.",
+      "successTitle": "Enquiry Submitted Successfully!",
+      "successText": "Our team will contact you within 24 hours."
+    },
+    "why": {
+      "title": "Why Choose Us",
+      "l1": "Disciplined physical training for police, army and defence aspirants.",
+      "l2": "Daily focus on stamina, endurance, strength and consistency.",
+      "l3": "Supportive environment with honest guidance and motivation.",
+      "l4": "Character-building through routine, discipline and hard work.",
+      "l5": "A nation-first mindset with serious ground-level preparation."
+    },
+    "office": {
+      "title": "Office Details",
+      "address": "General Arun Kumar Vaidya Ground, Ashwinayak Nagar, Borivali (West), Mumbai, Maharashtra - 400091",
+      "callLabel": "Call:",
+      "callValue": "+91 9082546363 | 8828261024",
+      "emailLabel": "Email:",
+      "emailValue": "jaihindphysicalacademy123@gmail.com"
+    },
+    "tests": {
+      "marathi": {
+        "title": "Marathi Test Preparation",
+        "subtitle": "Focused practice for written exams.",
+        "l1": "Grammar and comprehension.", "l2": "Vocabulary and sentence structure.", "l3": "Paragraph reading practice.",
+        "l4": "Previous paper solving.", "l5": "Weekly evaluation.", "l6": "Error correction sessions.",
+        "extra1": "Subject-wise improvement tracking.", "extra2": "Special doubt-solving support."
+      },
+      "english": {
+        "title": "English Test Preparation",
+        "subtitle": "Speed, accuracy and confidence.",
+        "l1": "Basic grammar and usage.", "l2": "Reading comprehension.", "l3": "Vocabulary building.",
+        "l4": "Mock tests and practice sets.", "l5": "Time management drills.", "l6": "Performance review sessions.",
+        "extra1": "Individual progress monitoring.", "extra2": "Interview communication support."
+      }
+    
+  }
+}

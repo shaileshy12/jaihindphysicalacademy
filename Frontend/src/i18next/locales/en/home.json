@@ -1,0 +1,64 @@
+{
+    "slider": {
+
+      "slide1": { 
+        "title": "We will transform your dream into reality!", 
+        "subtitle": "Highly experienced coaches and trainers help you get selected.", 
+        "btn": "Apply Now" 
+      },
+      "slide2": { 
+        "title": "Join India's Best Defence Coaching", 
+        "subtitle": "Structured training for Police, Army, BSF, and all defence exams.", 
+        "btn": "Apply Now" 
+      },
+      "slide3": { 
+        "title": "From Aspirant to Selected Officer", 
+        "subtitle": "Physical training, written guidance, and selection strategy in one place.", 
+        "btn": "Apply Now" 
+      }
+
+    },
+
+    "bottomBar": {
+      "police": "Police Bharti Ground Training", 
+      "army": "Army Bharti Ground Training", 
+      "ssc": "SSC GD Ground Training",
+      "rpf": "RPF Ground Training", 
+      "fitness": "Fitness Physical Training", 
+      "allPhysical": "All Physical Training"
+    },
+
+    "aboutAcademy": {
+      "title": "About Our Academy",
+      "Training":"(Only For Ground Practice)",
+      "heading": "We Will Transform Your Dream Into Reality!!",
+      "p1": "When you get your dream job it feels like you have achieved something significant in your life. You want to join police services or any armed forces like the military then Jai Hind Physical Academy is the best place to get the correct guidance.",
+      "p2": "When it comes to government jobs success rate is too low. In every segment hard work can not help you alone. You need proper guidance and smart work to accomplish the required guidance and training that you would be able to get selected for the fitness test."
+    },
+
+    "testimonials": {
+      "title": "Happy Students",
+
+      "s1": { 
+        "role": "Indian Army (Para SF Commando)", 
+        "text": "Jai Hind Physical Academy gave me the discipline, stamina training, and confidence I needed to push beyond my limits. The daily ground practice and constant motivation played a major role in helping me move closer to my dream of serving the nation." 
+      },
+
+      "s2": { 
+        "role": "Indian Army", 
+        "text": "My journey became much more focused after joining Jai Hind. The trainers paid attention to endurance, routine, and mental strength, which helped me stay consistent every day. The environment kept me serious about my goal and improved my overall physical performance." 
+      },
+
+      "s3": { 
+        "role": "Mumbai Police", 
+        "text": "What made the biggest difference for me was the disciplined training atmosphere. Jai Hind helped me improve my running, strength, and confidence step by step. The guidance on the ground was practical, strict, and exactly what a serious aspirant needs." 
+      },
+
+      "s4": { 
+        "role": "Mumbai Police", 
+        "text": "Jai Hind Physical Academy helped me build strong habits and a better mindset along with physical fitness. The regular practice, motivation, and focused training schedule made me more prepared, more disciplined, and much more confident in my journey." 
+      }
+      
+    }
+  
+}

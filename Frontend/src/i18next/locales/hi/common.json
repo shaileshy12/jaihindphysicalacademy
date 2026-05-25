@@ -1,0 +1,24 @@
+{
+  "site": {
+    "name": "जय हिंद फिजिकल एकेडमी",
+    "tagline": "पुलिस · सेना · रक्षा प्रशिक्षण"
+  },
+  "header": {
+    "slogan": "कड़ी मेहनत + दृढ़ संकल्प + मार्गदर्शन + विश्वास = प्रगति",
+    "email": "jaihindphysicalacademy123@gmail.com",
+    "phoneLine": "+91 9082546363 | 8828261024"
+  },
+  "nav": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "directorDesk": "डायरेक्टर डेस्क",
+    "mission": "मिशन",
+    "vision": "विजन",
+    "courses": "कोर्स",
+    "success": "सफल छात्र",
+    "gallery": "गैलरी",
+    "enquiry": "पूछताछ",
+    "contact": "संपर्क करें",
+    "trainingDisciplineSelection": "प्रशिक्षण · अनुशासन · चयन"
+  }
+}

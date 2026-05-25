@@ -1,0 +1,72 @@
+{
+    
+    "heroImgAlt": "Training ground",
+    "heroTag": "Courses",
+    "heroTitleMain": "Physical Training for",
+    "heroTitleHighlight": "Police, Army & SSC GD",
+    "heroText": "Every course focuses on disciplined physical training along with proper written guidance, so aspirants can prepare in the right direction with confidence and consistency.",
+    "police": {
+      "title": "Police Bharti Training",
+      "desc": "Designed for Maharashtra Police Bharti aspirants who want disciplined physical preparation along with proper written guidance and recruitment awareness.",
+      "guidanceTitle": "Written Guidance",
+      "guidance1": "Proper guidance about syllabus, exam stages, and preparation direction.",
+      "guidance2": "Support in understanding important subjects like Marathi, maths, reasoning, and general knowledge.",
+      "guidance3": "Guidance on planning self-study in a focused and practical way.",
+      "guidance4": "Awareness about recruitment pattern, timeline, and required preparation.",
+      "groundTitle": "Ground Training (Physical)",
+      "ground1": "1600 m / 800 m running with timing improvement drills.",
+      "ground2": "Shot put, sprint work, agility drills, and movement improvement.",
+      "ground3": "Strength work including push-ups, pull-ups, core, and flexibility.",
+      "ground4": "Regular physical assessment to track progress and readiness.",
+      "ideal": "Ideal for: Maharashtra Police Bharti aspirants who need serious physical training with correct written guidance."
+    },
+    "army": {
+      "title": "Army Bharti Training",
+      "desc": "Focused batch for Army Bharti and Army Agniveer aspirants with disciplined physical routine, performance tracking, and written guidance support.",
+      "guidanceTitle": "Written Guidance",
+      "guidance1": "Guidance for understanding Army Bharti stages, process, and preparation flow.",
+      "guidance2": "Help in identifying key subjects and self-study direction as per requirement.",
+      "guidance3": "Support in building discipline, routine, and goal-focused preparation habits.",
+      "guidance4": "Basic guidance for rally process, documentation, and readiness.",
+      "groundTitle": "Ground Training (Physical)",
+      "ground1": "Daily running sessions with timing focus and endurance development.",
+      "ground2": "Pull-ups, push-ups, sit-ups, long jump, and high jump practice.",
+      "ground3": "Stamina, recovery, and body-conditioning guidance from trainers.",
+      "ground4": "Regular physical practice rounds based on actual field demands.",
+      "ideal": "Ideal for: Army aspirants who want a disciplined training environment with proper physical development and written direction."
+    },
+    "ssc": {
+      "title": "SSC GD / CAPF Physical Training",
+      "desc": "Physical training batch for SSC GD, CAPF, and similar defence aspirants with PET/PST-focused preparation and written guidance support.",
+      "guidanceTitle": "Written Guidance",
+      "guidance1": "Guidance about SSC GD / CAPF exam structure, stages, and preparation direction.",
+      "guidance2": "Awareness of important written subjects and how to manage self-study effectively.",
+      "guidance3": "Support for planning preparation with balance between written and physical stages.",
+      "guidance4": "Basic guidance for documents, process, and exam readiness.",
+      "physicalTitle": "Physical & Fitness Preparation",
+      "physical1": "Ground training for PET / PST standards with disciplined routine.",
+      "physical2": "Running, endurance, and body conditioning according to target requirements.",
+      "physical3": "Guidance regarding height, chest, weight, and physical standards.",
+      "physical4": "Practical support for building confidence before physical rounds.",
+      "ideal": "Ideal for: SSC GD and CAPF aspirants who want strong physical preparation with the right written guidance."
+    },
+    "physical": {
+      "title": "Only Physical Training Batch",
+      "desc": "For students who are managing written preparation on their own and want full focus on ground training, fitness, discipline, and performance improvement.",
+      "guidanceTitle": "Support & Guidance",
+      "guidance1": "Guidance to align physical preparation with the target recruitment process.",
+      "guidance2": "Support in improving routine, consistency, and training discipline.",
+      "guidance3": "Monitoring and direction based on each student’s goal and physical level.",
+      "routineTitle": "Ground Routine",
+      "routine1": "Daily warm-up, stretching, and injury-prevention drills.",
+      "routine2": "Running programs tailored to target timing and performance.",
+      "routine3": "Strength, core workouts, sprint drills, and circuit training.",
+      "routine4": "Regular mock physical evaluation with progress feedback.",
+      "ideal": "Recommended for: Aspirants from any background who need focused physical training and expert ground monitoring."
+    },
+    "cta": {
+      "text": "Want to know which training batch is right for you based on your goal, age, and fitness level?",
+      "button": "Submit Enquiry for Guidance"
+    }
+  
+}

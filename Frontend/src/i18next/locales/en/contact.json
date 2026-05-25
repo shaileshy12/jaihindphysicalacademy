@@ -1,0 +1,24 @@
+{
+
+    "heroTag": "Contact",
+    "heroTitleMain": "Get in Touch",
+    "heroTitleHighlight": "With Us",
+    "heroText1": "Reach out for admissions, batch timings, and training guidance.",
+    "heroText2": "We are here to help every aspirant with the right direction.",
+    "heroImgAltMain": "Training session",
+    "heroImgAltGroup": "Student group",
+    "heroImgAltSession": "Army training session",
+    "branchesTitle": "Our Office",
+    "branchesSubtitle": "Visit our Borivali West office for admission guidance and course details.",
+    "generalLine1": "For direct assistance, email us at",
+    "generalLine2": "and we will respond as soon as possible.",
+    "branches": {
+      "borivali": {
+        "city": "Borivali West",
+        "name": "Jai Hind Physical Academy",
+        "address": "General Arun Kumar Vaidya Ground, Ashwinayak Nagar, Borivali (West), Mumbai, Maharashtra - 400091 (MHB Ground, oppo. Sailee College, near Fire Brigade Link Road, Gorai road)",
+        "phone": "+91 9082546363 | 8828261024"
+      }
+    
+  }
+}

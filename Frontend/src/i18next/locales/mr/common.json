@@ -1,0 +1,24 @@
+{
+  "site": {
+    "name": "जय हिंद फिजिकल अकॅडमी",
+    "tagline": "पोलीस · आर्मी · डिफेन्स ट्रेनिंग"
+  },
+  "header": {
+    "slogan": "कठोर परिश्रम + दृढनिश्चय + मार्गदर्शन + विश्वास = प्रगती",
+    "email": "jaihindphysicalacademy123@gmail.com",
+    "phoneLine": "+91 9082546363 | 8828261024"
+  },
+  "nav": {
+    "home": "मुख्यपृष्ठ",
+    "about": "आमच्याबद्दल",
+    "directorDesk": "संचालक डेस्क",
+    "mission": "ध्येय",
+    "vision": "दृष्टीकोन",
+    "courses": "अभ्यासक्रम",
+    "success": "यशस्वी विद्यार्थी",
+    "gallery": "गॅलरी",
+    "enquiry": "चौकशी",
+    "contact": "संपर्क",
+    "trainingDisciplineSelection": "प्रशिक्षण · शिस्त · निवड"
+  }
+}
