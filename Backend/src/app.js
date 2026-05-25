@@ -40,9 +40,9 @@ app.get("/", (req, res) => {
   });
 });
 
-app.use("/api/v1/admin", adminRoutes);
-app.use("/api/v1/user", userRoutes);
+// app.use("/api/v1/admin", adminRoutes);
+// app.use("/api/v1/user", userRoutes);
 
-app.use(errorMiddleware);
+// app.use(errorMiddleware);
 
 export default app;
