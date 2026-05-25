@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-// import mongoSanitize from "express-mongo-sanitize";
-// import { sanitizeBody } from "./middleware/sanitize.middleware.js";
+import mongoSanitize from "express-mongo-sanitize";
+import { sanitizeBody } from "./middleware/sanitize.middleware.js";
 
 import { errorMiddleware } from "./middleware/error.middleware.js";
 
@@ -31,7 +31,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-// app.use(sanitizeBody);
+app.use(sanitizeBody);
 
 app.get("/", (req, res) => {
   res.status(200).json({
@@ -40,9 +40,9 @@ app.get("/", (req, res) => {
   });
 });
 
-// app.use("/api/v1/admin", adminRoutes);
-// app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/admin", adminRoutes);
+app.use("/api/v1/user", userRoutes);
 
-// app.use(errorMiddleware);
+app.use(errorMiddleware);
 
 export default app;
