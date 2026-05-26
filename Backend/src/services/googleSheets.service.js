@@ -23,12 +23,12 @@ export const fetchGoogleSheetData = async () => {
   phone: row[2],
   age: row[3],
   course: row[4],
-  height: row[5],
-  weight: row[6],
-  dob: row[7],
-  qualification: row[8],
-  caste: row[9],
-  address: row[10],
+  address: row[5],
+  height: row[6],
+  weight: row[7],
+  dob: row[8],
+  qualification: row[9],
+  caste: row[10],
 }));
 
     return formattedData;
