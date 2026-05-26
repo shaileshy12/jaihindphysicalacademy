@@ -133,7 +133,7 @@ function Header() {
                 >
                   <InstagramIcon className="w-4 h-4" />
                 </a>
-                
+
                 <a
                   href="https://youtube.com/@jaihindphysical_academy?si=dhebBR8ovADcdcXJ"
                   target="_blank"
@@ -440,6 +440,16 @@ function Header() {
 
               <div className="flex items-center justify-center gap-4 mt-4">
                 <a
+                  href="https://www.instagram.com/jaihindphysical_academy"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pink-600 transition-all duration-300"
+                  aria-label="Instagram"
+                >
+                  <InstagramIcon className="w-5 h-5 text-white" />
+                </a>
+
+                <a
                   href="https://youtube.com/@jaihindphysical_academy?si=dhebBR8ovADcdcXJ"
                   target="_blank"
                   rel="noreferrer"
@@ -449,15 +459,6 @@ function Header() {
                   <YoutubeIcon className="w-5 h-5 text-white" />
                 </a>
 
-                <a
-                  href="https://www.instagram.com/jaihindphysical_academy"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-pink-600 transition-all duration-300"
-                  aria-label="Instagram"
-                >
-                  <InstagramIcon className="w-5 h-5 text-white" />
-                </a>
 
                 <a
                   href="https://www.facebook.com/share/18TqiF46m7/"
@@ -480,7 +481,7 @@ function Header() {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://t.me/jaihindphysicalacademy"
                   target="_blank"
                   rel="noreferrer"
                   className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-sky-500 transition-all duration-300"
@@ -488,6 +489,7 @@ function Header() {
                 >
                   <Send className="w-5 h-5 text-white" />
                 </a>
+                
               </div>
             </div>
             <Link
