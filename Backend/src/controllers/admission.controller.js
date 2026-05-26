@@ -1,4 +1,5 @@
 import Admission from "../model/admission.model.js";
+import axios from "axios";
 import { fetchGoogleSheetData } from "../services/googleSheets.service.js";
 
 export const syncAdmissions = async (req, res) => {
@@ -69,14 +70,29 @@ export const clearAdmissions = async (req, res) => {
 
 export const deleteAdmission = async (req, res) => {
   try {
-    const { id } = req.params;
+    const admission = await Admission.findById(req.params.id);
 
-    await Admission.findByIdAndDelete(id);
+    if (!admission) {
+      return res.status(404).json({
+        success: false,
+        message: "Admission not found",
+      });
+    }
+
+    // DELETE FROM GOOGLE SHEET
+    await axios.post(process.env.GOOGLE_SCRIPT_URL, {
+      phone: admission.phone,
+      timestamp: admission.timestamp,
+    });
+
+    // DELETE FROM MONGODB
+    await Admission.findByIdAndDelete(req.params.id);
 
     res.status(200).json({
       success: true,
       message: "Admission deleted successfully",
     });
+
   } catch (error) {
     res.status(500).json({
       success: false,
