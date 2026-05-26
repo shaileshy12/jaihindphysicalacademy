@@ -125,15 +125,6 @@ function Header() {
 
               <div className="flex items-center gap-1 text-black">
                 <a
-                  href="https://youtube.com/@jaihindphysical_academy?si=dhebBR8ovADcdcXJ"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="p-1.5 hover:bg-gray-100 rounded-lg"
-                  aria-label="YouTube"
-                >
-                  <YoutubeIcon className="w-4 h-4" />
-                </a>
-                <a
                   href="https://www.instagram.com/jaihindphysical_academy"
                   target="_blank"
                   rel="noreferrer"
@@ -141,6 +132,16 @@ function Header() {
                   aria-label="Instagram"
                 >
                   <InstagramIcon className="w-4 h-4" />
+                </a>
+                
+                <a
+                  href="https://youtube.com/@jaihindphysical_academy?si=dhebBR8ovADcdcXJ"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="p-1.5 hover:bg-gray-100 rounded-lg"
+                  aria-label="YouTube"
+                >
+                  <YoutubeIcon className="w-4 h-4" />
                 </a>
                 <a
                   href="https://www.facebook.com/share/18TqiF46m7/"
@@ -153,6 +154,16 @@ function Header() {
                 </a>
 
                 <a
+                  href="https://wa.me/919082546363"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="p-1.5 hover:bg-gray-100 rounded-lg"
+                  aria-label="WhatsApp"
+                >
+                  <FaWhatsapp className="w-4 h-4" />
+                </a>
+
+                <a
                   href="https://t.me/jaihindphysicalacademy"
                   target="_blank"
                   target="_blank"
@@ -161,16 +172,6 @@ function Header() {
                   aria-label="Telegram"
                 >
                   <Send className="w-4 h-4" />
-                </a>
-
-                <a
-                  href="https://wa.me/919082546363"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="p-1.5 hover:bg-gray-100 rounded-lg"
-                  aria-label="WhatsApp"
-                >
-                  <FaWhatsapp className="w-4 h-4" />
                 </a>
 
                 <LanguageSwitcher />
