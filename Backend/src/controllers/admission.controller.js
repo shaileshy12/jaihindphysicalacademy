@@ -65,3 +65,21 @@ export const clearAdmissions = async (req, res) => {
     });
   }
 };
+
+export const deleteAdmission = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    await Admission.findByIdAndDelete(id);
+
+    res.status(200).json({
+      success: true,
+      message: "Admission deleted successfully",
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};

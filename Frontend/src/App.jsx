@@ -28,6 +28,7 @@ import AdminEnquiries from "./pages/Admin/AdminEnquiries.jsx";
 import AdminUsers from "./pages/Admin/AdminUsers.jsx";
 import AdminSettings from "./pages/Admin/AdminSettings.jsx";
 import AdminGallery from "./pages/Admin/AdminGallery.jsx";
+import AdminAdmissions from "./pages/Admin/AdminAdmissions.jsx";
 
 import AdminLayout from "./components/AdminLayout.jsx";
 import AdminProtectedRoute from "./components/AdminProtectedRoute.jsx";
@@ -140,6 +141,10 @@ function App() {
               {/* DASHBOARD */}
 
               <Route path="dashboard" element={<AdminDashboard />} />
+
+              {/* AdminAdmission */}
+
+              <Route path="/admin/admissions" element={<AdminAdmissions />} />
 
               {/* ENQUIRIES */}
 
