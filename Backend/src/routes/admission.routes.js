@@ -7,6 +7,7 @@ import {
 const router = express.Router();
 
 router.get("/sync", syncAdmissions);
+
 router.get("/", getAdmissions);
 
 export default router;
