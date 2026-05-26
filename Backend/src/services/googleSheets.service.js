@@ -5,7 +5,7 @@ export const fetchGoogleSheetData = async () => {
     const SHEET_ID = process.env.GOOGLE_SHEET_ID;
     const API_KEY = process.env.GOOGLE_API_KEY;
 
-    const RANGE = "const RANGE = Form Responses 1!A:K";
+    const RANGE = "Form Responses 1!A:K";
 
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${RANGE}?key=${API_KEY}`;
 
