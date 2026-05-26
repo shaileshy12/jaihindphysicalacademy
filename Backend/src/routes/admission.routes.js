@@ -11,6 +11,6 @@ router.get("/sync", syncAdmissions);
 
 router.get("/", getAdmissions);
 
-router.get("/clear", clearAdmissions);
+router.delete("/clear", clearAdmissions);
 
 export default router;
