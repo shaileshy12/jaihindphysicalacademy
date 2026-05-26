@@ -26,6 +26,14 @@ const adminSchema = new mongoose.Schema(
       default: "admin",
       enum: ["admin"],
     },
+    lastLogin: {
+      type: Date,
+      default: null,
+    },
+    isOnline: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
