@@ -15,7 +15,8 @@ export const syncAdmissions = async (req, res) => {
     for (const row of rows) {
       const exists = await Admission.findOne({
         phone: row.phone,
-      });
+        timestamp: row.timestamp,
+    });
 
       if (!exists) {
         await Admission.create(row);

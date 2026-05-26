@@ -2,6 +2,11 @@ import mongoose from "mongoose";
 
 const admissionSchema = new mongoose.Schema(
   {
+    timestamp: {
+      type: String,
+      default: "",
+    },
+
     fullName: {
       type: String,
       default: "",
