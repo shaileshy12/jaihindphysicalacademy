@@ -13,16 +13,26 @@ const AdminAdmissions = () => {
     "https://jaihindphysicalacademy-production.up.railway.app/api/v1/admission";
 
   const fetchAdmissions = async () => {
-    try {
-      const response = await axios.get(API_URL);
+  try {
+    setLoading(true);
 
-      setAdmissions(response.data.admissions);
-    } catch (error) {
-      console.log(error);
-    } finally {
-      setLoading(false);
-    }
-  };
+    // AUTO SYNC GOOGLE SHEET → MONGODB
+    await axios.get(
+      "https://jaihindphysicalacademy-production.up.railway.app/api/v1/admission/sync"
+    );
+
+    // FETCH UPDATED DATA
+    const response = await axios.get(
+      "https://jaihindphysicalacademy-production.up.railway.app/api/v1/admission"
+    );
+
+    setAdmissions(response.data.admissions);
+  } catch (error) {
+    console.log(error);
+  } finally {
+    setLoading(false);
+  }
+};
 
   useEffect(() => {
     fetchAdmissions();
