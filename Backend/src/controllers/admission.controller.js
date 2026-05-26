@@ -49,3 +49,19 @@ export const getAdmissions = async (req, res) => {
     });
   }
 };
+
+export const clearAdmissions = async (req, res) => {
+  try {
+    await Admission.deleteMany({});
+
+    res.status(200).json({
+      success: true,
+      message: "All admissions deleted",
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
