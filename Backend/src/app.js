@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 import mongoSanitize from "express-mongo-sanitize";
 import { sanitizeBody } from "./middleware/sanitize.middleware.js";
 import offlineEnquiryRoutes from "./routes/offlineEnquiry.routes.js";
+import admissionRoutes from "./routes/admission.routes.js";
 
 import { errorMiddleware } from "./middleware/error.middleware.js";
 
@@ -56,6 +57,7 @@ app.get("/", (req, res) => {
 app.use("/api/v1/admin", adminRoutes);
 app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/offline-enquiry", offlineEnquiryRoutes);
+app.use("/api/v1/admission", admissionRoutes);
 
 app.use(errorMiddleware);
 

@@ -3,7 +3,7 @@ import express from "express";
 import {
   createOfflineEnquiry,
   getOfflineEnquiries,
-} from "../controller/offlineEnquiry.controller.js";
+} from "../controllers/offlineEnquiry.controller.js";
 
 import { verifyAdmin } from "../middleware/auth.middleware.js";
 
