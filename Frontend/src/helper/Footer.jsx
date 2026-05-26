@@ -246,7 +246,7 @@ const Footer = () => {
             <SectionHeading>Contact</SectionHeading>
 
             <div className="space-y-2 text-sm leading-7 text-white/75">
-              <p>{t("header.slogan")}</p>
+              <p>+91 9082546363 | 8828261024</p>
 
               <p>{t("footer:bottomSubtitle")}</p>
             </div>
