@@ -157,7 +157,7 @@ const Footer = () => {
                 href="https://youtube.com/@jaihindphysical_academy?si=dhebBR8ovADcdcXJ"
                 target="_blank"
                 rel="noreferrer"
-                className="p-1.5 hover:bg-gray-100 rounded-lg"
+                className="p-1.5 rounded-lg text-white/80 hover:text-white hover:bg-white/10 transition"
                 aria-label="YouTube"
               >
                 <YoutubeIcon className="w-4 h-4" />
@@ -166,7 +166,7 @@ const Footer = () => {
                 href="https://www.instagram.com/jaihindphysical_academy"
                 target="_blank"
                 rel="noreferrer"
-                className="p-1.5 hover:bg-gray-100 rounded-lg"
+                className="p-1.5 rounded-lg text-white/80 hover:text-white hover:bg-white/10 transition"
                 aria-label="Instagram"
               >
                 <InstagramIcon className="w-4 h-4" />
@@ -175,7 +175,7 @@ const Footer = () => {
                 href="https://www.facebook.com/share/18TqiF46m7/"
                 target="_blank"
                 rel="noreferrer"
-                className="p-1.5 hover:bg-gray-100 rounded-lg"
+                className="p-1.5 rounded-lg text-white/80 hover:text-white hover:bg-white/10 transition"
                 aria-label="Facebook"
               >
                 <Facebook className="w-4 h-4" />
@@ -186,7 +186,7 @@ const Footer = () => {
                 target="_blank"
                 target="_blank"
                 rel="noreferrer"
-                className="p-1.5 hover:bg-gray-100 rounded-lg"
+                className="p-1.5 rounded-lg text-white/80 hover:text-white hover:bg-white/10 transition"
                 aria-label="Telegram"
               >
                 <Send className="w-4 h-4" />
@@ -196,7 +196,7 @@ const Footer = () => {
                 href="https://wa.me/919082546363"
                 target="_blank"
                 rel="noreferrer"
-                className="p-1.5 hover:bg-gray-100 rounded-lg"
+                className="p-1.5 rounded-lg text-white/80 hover:text-white hover:bg-white/10 transition"
                 aria-label="WhatsApp"
               >
                 <FaWhatsapp className="w-4 h-4" />
