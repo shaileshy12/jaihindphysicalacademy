@@ -152,7 +152,7 @@ const Footer = () => {
 
             {/* SOCIAL */}
 
-            <div className="flex items-center gap-1 text-black">
+            <div className="flex items-center gap-4 text-black">
               <a
                 href="https://youtube.com/@jaihindphysical_academy?si=dhebBR8ovADcdcXJ"
                 target="_blank"
