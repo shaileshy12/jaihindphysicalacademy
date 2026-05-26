@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import API from "../../services/api";
 import { Link } from "react-router-dom";
 import CloudinaryMedia from "../../components/CloudinaryMedia";
+import AdminAdmissions from "./AdminAdmissions.jsx";
 
 const AdminDashboard = () => {
   const [stats, setStats] = useState({
@@ -302,6 +303,42 @@ const AdminDashboard = () => {
                 strokeLinejoin="round"
                 strokeWidth={2}
                 d="M9 5H7a2 2 0 00-2 2v10"
+              />
+            </svg>
+          )}
+        />
+
+        <QuickActionCard
+          title="Admissions"
+          description="View admission form submissions"
+          href="/admin/admissions"
+          color="bg-gradient-to-r from-emerald-500 to-green-600"
+          icon={(props) => (
+            <svg
+              {...props}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 14l9-5-9-5-9 5 9 5z"
+              />
+
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 14l6.16-3.422A12.083 12.083 0 0120 17.944"
+              />
+
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 14l-6.16-3.422A12.083 12.083 0 004 17.944"
               />
             </svg>
           )}
