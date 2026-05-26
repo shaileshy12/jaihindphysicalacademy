@@ -23,6 +23,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "https://jaihindphysicalacademy.pages.dev",
   "https://jaihindphysicalacademy.com",
+   "https://www.jaihindphysicalacademy.com",
 ];
 
 app.use(
