@@ -276,7 +276,7 @@ const EnquiryModal = ({ isLoggedIn = false }) => {
                 onChange={(e) => handleInputChange("location", e.target.value)}
                 disabled={isSubmitting}
               >
-                <option value="">Your city or nearest Prahar branch</option>
+                <option value="">Your city</option>
 
                 <optgroup label="🟡 Western Line">
                   {stationGroups.western.map((s) => (
