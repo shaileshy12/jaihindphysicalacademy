@@ -154,7 +154,7 @@ const EnquiryModal = ({ isLoggedIn = false }) => {
             Enquiry For Admission
           </h2>
           <p className="text-center mb-5 text-xs md:text-sm text-yellow-100">
-            Thank you for your interest in joining Prahar Career Academy.
+            Thank you for your interest in joining Jai Hind Physical Academy.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-3.5">
