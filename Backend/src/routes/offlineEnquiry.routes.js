@@ -5,7 +5,7 @@ import {
   getOfflineEnquiries,
 } from "../controllers/offlineEnquiry.controller.js";
 
-import { verifyAdmin } from "../middleware/auth.middleware.js";
+import { verifyAdmin } from "../middleware/auth.js";
 
 const router = express.Router();
 
