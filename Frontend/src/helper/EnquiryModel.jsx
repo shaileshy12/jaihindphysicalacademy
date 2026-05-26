@@ -202,7 +202,6 @@ const EnquiryModal = ({ isLoggedIn = false }) => {
                 className="w-full rounded-lg border border-transparent px-3 py-2.5 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 text-sm"
                 value={formData.email}
                 onChange={(e) => handleInputChange("email", e.target.value)}
-                required
                 disabled={isSubmitting}
               />
             </div>
