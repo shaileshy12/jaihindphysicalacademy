@@ -6,10 +6,16 @@ const admissionSchema = new mongoose.Schema(
     phone: String,
     age: String,
     course: String,
+    height: String,
+    weight: String,
+    dob: String,
+    qualification: String,
+    caste: String,
+    address: String,
   },
   { timestamps: true }
 );
 
 const Admission = mongoose.model("Admission", admissionSchema);
 
-export default Admission;
+export default Admission;   
