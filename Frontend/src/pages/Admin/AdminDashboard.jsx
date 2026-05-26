@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import API from "../../services/api";
 import { Link } from "react-router-dom";
 import CloudinaryMedia from "../../components/CloudinaryMedia";
-import AdminAdmissions from "./AdminAdmissions.jsx";
 
 const AdminDashboard = () => {
   const [stats, setStats] = useState({
