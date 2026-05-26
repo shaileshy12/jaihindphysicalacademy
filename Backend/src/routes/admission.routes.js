@@ -2,7 +2,7 @@ import express from "express";
 import {
   syncAdmissions,
   getAdmissions,
-} from "../controller/admission.controller.js";
+} from "../controllers/admission.controller.js";
 
 const router = express.Router();
 
