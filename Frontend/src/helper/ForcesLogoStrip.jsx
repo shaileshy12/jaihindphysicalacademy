@@ -5,10 +5,12 @@ import logo2 from "../assets/BSF_Logo.svg.png";
 import logo3 from "../assets/Indian_Air_Force_Logo.png";
 import logo4 from "../assets/ITBP_Logo.svg";
 import logo5 from "../assets/indianarmy.jpg";
-import logo6 from "../assets/Mumbai-Police-Black.svg";
+import logo6 from "../assets/mumbai_police_logo.jpeg";
+import logo7 from "../assets/maharashtra_police.jpeg";
 
 
-const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
+
+const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
 const ForcesLogoStrip = () => {
   return (
