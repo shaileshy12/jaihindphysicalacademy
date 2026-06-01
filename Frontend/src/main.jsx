@@ -1,5 +1,7 @@
 // src/main.jsx
 
+import "./sentry.js";
+
 import { StrictMode } from "react";
 
 import { createRoot } from "react-dom/client";

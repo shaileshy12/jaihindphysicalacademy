@@ -1,3 +1,5 @@
+import * as Sentry from "@sentry/node";
+import "./config/sentry.js";
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
@@ -14,6 +16,7 @@ import helmet from "helmet";
 
 const URL = process.env.CLIENT_URL;
 const app = express();
+app.use(Sentry.Handlers.requestHandler());
 
 app.use(
   helmet({
@@ -58,6 +61,8 @@ app.use("/api/v1/admin", adminRoutes);
 app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/offline-enquiry", offlineEnquiryRoutes);
 app.use("/api/v1/admission", admissionRoutes);
+
+app.use(Sentry.Handlers.errorHandler());
 
 app.use(errorMiddleware);
 
