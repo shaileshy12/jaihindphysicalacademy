@@ -1,4 +1,10 @@
+import Sentry from "../config/sentry.js";
+
 export const errorMiddleware = (err, req, res, next) => {
+  
+  // Send error to Sentry
+  Sentry.captureException(err);
+
   let statusCode = err.statusCode || 500;
 
   let message = err.message || "Internal Server Error";
