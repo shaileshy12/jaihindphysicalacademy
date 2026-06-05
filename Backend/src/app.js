@@ -15,6 +15,8 @@ import helmet from "helmet";
 
 // const URL = process.env.CLIENT_URL;
 const app = express();
+
+app.set("trust proxy", 1);
 // app.use(Sentry.Handlers.requestHandler());
 
 app.use(
